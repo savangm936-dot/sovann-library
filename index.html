@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="km">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CHUM SOVANN ONLINE LIBRARY</title>
+<style>
+* {box-sizing:border-box}
+body {
+ margin:0;
+ font-family:Arial,sans-serif;
+ background:#fff7fb;
+ color:#372640;
+}
+header {
+ background:linear-gradient(120deg,#713ba0,#ef7da8);
+ color:white;
+ padding:25px 16px;
+ text-align:center;
+}
+header h1 {font-size:25px;margin:8px}
+header p {font-size:13px}
+nav {
+ background:#fff;
+ display:flex;
+ justify-content:center;
+ gap:8px;
+ flex-wrap:wrap;
+ padding:14px;
+}
+nav a {
+ text-decoration:none;
+ color:#713ba0;
+ font-weight:bold;
+ padding:8px;
+}
+.hero {
+ text-align:center;
+ padding:42px 20px;
+ background:linear-gradient(#ffe1ed,#fff7fb);
+}
+.hero h2 {color:#7b379b}
+.btn {
+ display:inline-block;
+ background:#8546bd;
+ color:white;
+ padding:12px 22px;
+ border-radius:25px;
+ text-decoration:none;
+}
+section {padding:25px 16px}
+section h2 {text-align:center;color:#793d99}
+.books {
+ display:grid;
+ grid-template-columns:repeat(auto-fit,minmax(145px,1fr));
+ gap:15px;
+ max-width:850px;
+ margin:auto;
+}
+.book {
+ background:white;
+ border-radius:18px;
+ padding:20px 12px;
+ text-align:center;
+ box-shadow:0 5px 15px #e6cadd;
+}
+.book .emoji {font-size:40px}
+.book h3 {color:#703ca0}
+.book p {font-size:13px}
+footer {
+ background:#482663;
+ color:white;
+ text-align:center;
+ padding:25px;
+}
+</style>
+</head>
+<body>
+<header>
+ <h1>🌸 បណ្ណាល័យ ជុំ សុវណ្ណ</h1>
+ <p>CHUM SOVANN ONLINE LIBRARY</p>
+ <p>Sovan Sensei · Japanese Learning Center</p>
+</header>
+
+<nav>
+ <a href="#home">ទំព័រដើម</a>
+ <a href="#books">សៀវភៅ</a>
+ <a href="#extra">មេរៀនបន្ថែម</a>
+ <a href="#about">អំពីយើង</a>
+</nav>
+
+<div class="hero" id="home">
+ <h2>🌸 តោះរៀនភាសាជប៉ុន!</h2>
+ <p>រៀនពីកម្រិត N5 រហូតដល់ N1</p>
+ <p>ជាមួយពាក្យសព្ទ វេយ្យាករណ៍ និងកានជី</p>
+ <a class="btn" href="#books">ចូលមើលសៀវភៅ</a>
+</div>
+
+<section id="books">
+ <h2>📚 សៀវភៅ ដោះសោភាសា</h2>
+ <div class="books">
+  <div class="book">
+   <div class="emoji">🌸</div>
+   <h3>N5</h3>
+   <p>កម្រិតដំបូង</p>
+  </div>
+  <div class="book">
+   <div class="emoji">📗</div>
+   <h3>N4</h3>
+   <p>កម្រិតមូលដ្ឋាន</p>
+  </div>
+  <div class="book">
+   <div class="emoji">📘</div>
+   <h3>N3</h3>
+   <p>កម្រិតមធ្យម</p>
+  </div>
+  <div class="book">
+   <div class="emoji">📙</div>
+   <h3>N2</h3>
+   <p>កម្រិតខ្ពស់</p>
+  </div>
+  <div class="book">
+   <div class="emoji">📕</div>
+   <h3>N1</h3>
+   <p>កម្រិតខ្ពស់បំផុត</p>
+  </div>
+ </div>
+</section>
+
+<section id="extra">
+ <h2>📖 សៀវភៅបន្ថែម</h2>
+ <div class="books">
+  <div class="book">
+   <div class="emoji">📖</div>
+   <h3>វចនានុក្រម</h3>
+   <p>ជប៉ុន → ខ្មែរ</p>
+  </div>
+  <div class="book">
+   <div class="emoji">✍️</div>
+   <h3>វេយ្យាករណ៍</h3>
+   <p>ពន្យល់ទម្រង់ប្រយោគ</p>
+  </div>
+  <div class="book">
+   <div class="emoji">🈷️</div>
+   <h3>Kanji</h3>
+   <p>រៀនសរសេរអក្សរកានជី</p>
+  </div>
+ </div>
+</section>
+
+<footer id="about">
+ <h3>CHUM SOVANN ONLINE LIBRARY</h3>
+ <p>បង្កើតដោយ ជុំ សុវណ្ណ</p>
+ <p>© 2026 Sovann Library</p>
+</footer>
+</body>
+</html>
